@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A6028CBC20CFA31A009C05E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6028CBB20CFA31A009C05E2 /* AppDelegate.swift */; };
-		A6028CBE20CFA31A009C05E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6028CBD20CFA31A009C05E2 /* ViewController.swift */; };
 		A6028CC120CFA31A009C05E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6028CBF20CFA31A009C05E2 /* Main.storyboard */; };
 		A6028CC320CFA31A009C05E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6028CC220CFA31A009C05E2 /* Assets.xcassets */; };
 		A6028CC620CFA31A009C05E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6028CC420CFA31A009C05E2 /* LaunchScreen.storyboard */; };
 		A6028CD120CFA31A009C05E2 /* PhotoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6028CD020CFA31A009C05E2 /* PhotoEditorTests.swift */; };
 		A6028CDC20CFA31A009C05E2 /* PhotoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6028CDB20CFA31A009C05E2 /* PhotoEditorUITests.swift */; };
+		A6028CEA20CFA3A0009C05E2 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6028CE920CFA3A0009C05E2 /* PhotoEditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A6028CB820CFA31A009C05E2 /* PhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6028CBB20CFA31A009C05E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6028CBD20CFA31A009C05E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6028CC020CFA31A009C05E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6028CC220CFA31A009C05E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6028CC520CFA31A009C05E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A6028CD720CFA31A009C05E2 /* PhotoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6028CDB20CFA31A009C05E2 /* PhotoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorUITests.swift; sourceTree = "<group>"; };
 		A6028CDD20CFA31A009C05E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6028CE920CFA3A0009C05E2 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				A6028CBB20CFA31A009C05E2 /* AppDelegate.swift */,
-				A6028CBD20CFA31A009C05E2 /* ViewController.swift */,
 				A6028CBF20CFA31A009C05E2 /* Main.storyboard */,
 				A6028CC220CFA31A009C05E2 /* Assets.xcassets */,
 				A6028CC420CFA31A009C05E2 /* LaunchScreen.storyboard */,
 				A6028CC720CFA31A009C05E2 /* Info.plist */,
+				A6028CE920CFA3A0009C05E2 /* PhotoEditorViewController.swift */,
 			);
 			path = PhotoEditor;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6028CBE20CFA31A009C05E2 /* ViewController.swift in Sources */,
+				A6028CEA20CFA3A0009C05E2 /* PhotoEditorViewController.swift in Sources */,
 				A6028CBC20CFA31A009C05E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
